@@ -1,0 +1,81 @@
+body {
+  font-size: 38px;
+  background-color: #F7D0E4; /* 연한 핑크 */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* 기본 스타일 */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #F7D0E4;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+main {
+  padding: 1rem;
+}
+
+footer {
+  background-color: #F7D0E4;
+  color: white;
+  text-align: center;
+  padding: 0.5rem;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+/* 스마트폰 및 작은 화면에 최적화된 스타일 */
+@media (max-width: 768px) {
+  header, main, footer {
+    padding: 0.5rem;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+  
+  footer {
+    position: relative;
+    bottom: auto;
+  }
+}
+}
+
+header {
+  background-color: #F7D0E4;
+  color: white;
+  text-align: center;
+  padding: 2rem;
+}
+
+main {
+  padding: 1rem;
+}
+
+footer {
+  background-color: #F7D0E4;
+  color: white;
+  text-align: center;
+  padding: 0.5rem;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}

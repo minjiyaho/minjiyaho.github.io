@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Website</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 80vh;  /* 화면 전체 높이로 설정 */
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #F7D0E4; /* 원하신 핑크색 배경 */
+      overflow: hidden;  /* 화면 넘침 방지 */
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 3vw;  /* 화면 크기에 맞게 폰트 크기 비율 변경 */
+      margin-bottom: 20px;
+      color: #C7EEF9
+    }
+
+    a {
+      display: flex;
+      justify-content: center; /* 가로로 중앙 정렬 */
+      align-items: center; /* 세로로 중앙 정렬 */
+    }
+
+    a img {
+      max-width: 50%;  /* 이미지 크기를 50%로 설정 */
+      height: auto;
+      cursor: pointer;
+      transition: transform 0.2s ease;
+    }
+
+    a img:hover {
+      transform: scale(1.05);
+    }
+
+    footer {
+        font-size: 2vw;
+    }
+
+
+    /* 모바일 화면에서 이미지 크기 조절 */
+    @media (max-width: 768px) {
+      h1 {
+        font-size: 6vw;  /* 작은 화면에서 제목 크기 더 작게 조절 */
+      }
+
+      a img {
+        max-width: 80%;  /* 모바일 화면에서 이미지 크기 더 작게 조정 */
+      }
+    }
+
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Your Route</h1>
+    <p></p>
+  </header>
+
+  <a href="page1.html">
+    <img src="map.png" alt="Sticker Image">
+  </a>
+
+  <footer>
+    <p>&copy; Minji</p>
+  </footer>
+
+</body>
+</html>
+
+
+
